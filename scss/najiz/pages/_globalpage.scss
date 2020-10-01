@@ -1,0 +1,321 @@
+html,
+body {
+  direction: ltr;
+  // height: 100%;
+  // background: #f9f9f9 url(../img/svg-pattern.svg) repeat center top;
+  // background: #f9f9f9 url(../img/body_BG_5.jpg) repeat center top;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  font: {
+    size: 1rem;
+    family: "Almarai", sans-serif;
+  }
+  text-align: left;
+  color: $default_text_color;
+}
+.Shadow_wrapper {
+  box-shadow: inset 0px 0px 170px 80px rgba(0, 61, 58, 0.55);
+  height: 100%;
+  overflow: auto;
+}
+[dir="#{$dir}"] {
+  html,
+  body {
+    direction: rtl;
+    text-align: right !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  // html,
+  // body {
+  //     font: {
+  //         size: 1.12rem;
+  //     }
+  // }
+}
+
+/*href*/
+a {
+  color: $teal;
+  // font-weight: 600;
+  // font-size: .8rem;
+}
+
+a:hover {
+  color: $teal;
+}
+
+// p, ol, ul {
+//     font-size: .9rem;
+// }
+
+// .details__groupTitle {color:#36c5ba}
+// .heading__subheading, .details__text {color:#5c6f7c}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+.btn {
+  font-weight: bold;
+}
+
+// a,
+// span,
+// div,
+// p,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//     font: {
+//         weight: 600;
+//     }
+// }
+
+.thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+canvas {
+  width: 100% !important;
+}
+
+.mainMinHeight {
+  min-height: 846px;
+}
+
+/*Theme colors*/
+.text-pepper {
+  color: $default_text_color;
+}
+.text-turquoise {
+  color: $primary_text_color;
+}
+.text-gray {
+  color: $second_text_color;
+}
+.text-light-gray {
+  color: $light_gray_text_color;
+}
+.second_text_color_lighten {
+  color: $grayColor;
+}
+
+/*Primary colors*/
+.teal {
+  background-color: $teal;
+}
+.gold {
+  background-color: $gold;
+}
+.turquoise {
+  background-color: $turquoise;
+}
+
+/*Secondary colors*/
+.pepper {
+  background-color: $pepper;
+}
+.grey {
+  background-color: $grey;
+}
+.powder_blue {
+  background-color: $powder_blue;
+}
+.aqua {
+  background-color: $aqua;
+}
+.sand {
+  background-color: $sand;
+}
+.goldenrod_yellow {
+  background-color: $goldenrod_yellow;
+}
+.light_cyan {
+  background-color: $light_cyan;
+}
+
+/*Service colors*/
+.success_green {
+  background-color: $success_green;
+}
+.information_blue {
+  background-color: $information_blue;
+}
+.alert_yellow {
+  background-color: $alert_yellow;
+}
+.error_red {
+  background-color: $error_red;
+}
+
+/*Temporary adjustments*/
+.alert {
+  display: inherit;
+  max-width: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  appearance: auto;
+}
+.dashboardActionHeading:after {
+  background-color: #fff;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: calc(100% - 0px);
+}
+
+.dashboardActionHeading {
+  display: block;
+}
+.issueProcuration__buttonWrapper {
+  display: grid;
+}
+/*.dashboard__inner {
+  display: grid;
+}*/
+.procurationForm__tileLabel {
+  display: inline-table;
+}
+.fix_nav {
+  z-index: inherit;
+  max-width: 100%;
+}
+.fix_nav:before {
+  width: auto;
+  position: relative;
+}
+
+
+
+.dashboardActionHeading__singleStep:before {
+    width: 23px;
+    height: 23px;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 3px 9px;
+}
+.dashboardActionHeading__singleStep--finished:before{
+  padding:6px 6px;
+  font-size: 8px;
+}
+
+/*delete button*/
+.issueTile__deleteTile {
+  right: -40px !important;
+}
+@media(max-width:$minSmall) {
+  .issueTile__deleteTile {
+  right: 25px !important;
+}
+}
+
+[dir="#{$dir}"]{.issueTile__deleteTile {
+  left: -40px !important;
+  right: inherit !important;
+}}
+[dir="#{$dir}"] {
+  @media(max-width:$minSmall) {
+      .issueTile__deleteTile {
+      left: 25px !important;
+      right: inherit !important;
+    }
+  }
+}
+
+/*cancel button*/
+.dashboardActionHeading__backButton {
+  position: absolute;
+    left: -70px;
+}
+
+[dir="#{$dir}"]{
+  .dashboardActionHeading__backButton {
+    position: absolute;
+      right: -70px;
+      left:inherit
+  }
+}
+@media(max-width:$minSmall) {
+  .dashboardActionHeading__backButton {
+    position: inherit !important;
+      right: inherit !important;
+      left:inherit !important
+  }
+}
+
+
+/*coustom card*/
+.shadow{
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, .08) !important;
+}
+
+
+/*custom nav header*/
+[dir="#{$dir}"]{
+  .dashboardActionHeading div.mr-auto{
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+}
+
+.issueProcuration__tilesDivider::before {margin-right: 0 !important; margin-left: 0 !important;}
+
+
+@media (max-width:1024px) {
+	.sections {
+    height: auto;
+  }
+  }
+/*dashboard*/
+.dashboard {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/*nav__mobile*/
+.nav__search {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+
+/*Custom special notification*/
+.issueProcuration__displayMore {
+  width: calc(100% + 5px);
+}
+
+/*custom_light_gray*/
+.custom_light_gray{
+background-color:#efefef}
+
+
+/*issueProcuration__warningContent*/
+.issueProcuration__warningContent{
+font-size: 14px;;
+}
+
+/*issueProcuration__displayMore */
+.issueProcuration__displayMore {
+  left: -4px;}
+html[dir="rtl"] .issueProcuration__displayMore {
+  left: unset;
+  padding: 0 102px 20px 0;
+  right: -4px;}
+.issueProcuration__displayMore {
+  width: calc(100% + 4px);
+}

@@ -1,0 +1,10 @@
+/*new classes*/
+th {font-weight: bold;}
+[dir="#{$dir}"]{
+table>tbody>tr>td>span.footable-toggle.last-column {
+    margin-right: 8px;
+    float: left;
+}}
+
+table>tbody>tr>td>span.footable-toggle {opacity: .5 !important;}
+.fooicon {font-size: 1.5rem !important; font-weight: 700 !important;}

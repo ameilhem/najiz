@@ -1,0 +1,75 @@
+//
+// Callouts
+//
+
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  @include border-radius();
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: .25rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  code {
+    @include border-radius();
+  }
+
+  + .bd-callout {
+    margin-top: -.25rem;
+  }
+}
+
+[dir="#{$dir}"] {
+  .bd-callout {
+    border-right-width: .25rem !important;
+    border-left-width: 0.1rem !important;
+    
+}}
+
+
+
+
+
+// Variations
+@mixin bs-callout-variant($color) {
+  border-left-color: $color;
+  h4 { color: $color; }
+    i  {
+        border:$color solid 2px !important;
+        color:$color;
+       }
+    .issueProcuration__displayMore{
+      border-left: $color solid .25rem !important;
+      .issueProcuration__warningData{ color:$color !important;} 
+    }
+}
+.bd-callout-info { @include bs-callout-variant($info); }
+.bd-callout-warning { @include bs-callout-variant($warning); }
+.bd-callout-danger { @include bs-callout-variant($danger); }
+.bd-callout-success { @include bs-callout-variant($success); }
+
+  [dir="#{$dir}"] {
+@mixin bs-callout-variant($color) {
+  border-right-color: $color !important;
+  border-left-color: #eee;
+  .issueProcuration__displayMore {
+    border-right: $color solid .25rem !important;
+    border-left:inherit !important;
+    .issueProcuration__warningData{ color:$color !important;} 
+  }
+}
+
+.bd-callout-info { @include bs-callout-variant($info); }
+.bd-callout-warning { @include bs-callout-variant($warning); }
+.bd-callout-danger { @include bs-callout-variant($danger); }
+.bd-callout-success { @include bs-callout-variant($success); }
+}

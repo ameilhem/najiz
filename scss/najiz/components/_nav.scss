@@ -1,0 +1,16 @@
+.custom-nav-pills {
+    .nav-link {
+      border-radius: 0;  
+      font-weight: bold;
+      border: 1px solid #dbdbdb;
+      color: #acb5bd;
+      margin: 10px;
+    }
+  
+    .nav-link.active,
+    .show > .nav-link {
+      background-color: white;
+      border: 2px solid #36C5BA;
+      color: #36C5BA;
+    }
+  }

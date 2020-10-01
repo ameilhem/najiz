@@ -1,0 +1,16 @@
+.modal-header, .modal-footer { 
+border: none;}
+
+
+.modal-header .close {
+    border: $border-width solid $border-color !important;
+    margin: .5rem 0 .5rem auto;
+    padding: 0 0 .12rem 0;
+    width: 36px;
+    height: 36px;
+}
+
+
+[dir="#{$dir}"] {.modal-header .close {
+    margin: .5rem auto .5rem 0;
+}}

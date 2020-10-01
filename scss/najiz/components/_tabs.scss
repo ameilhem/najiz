@@ -1,0 +1,16 @@
+@media(max-width:767px) {
+
+.coustom_flex_column { flex-direction: inherit !important; display: flex}
+
+.coustom_flex_column li {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+// .coustom_flex_column li .nav-link {
+
+//     padding-right: 5px;
+//     padding-left: 5px;
+// }
+
+}

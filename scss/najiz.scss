@@ -1,0 +1,43 @@
+// custom bootstrap
+@import "custom-bootstrap/bootstrap-grid.scss";
+@import "custom-bootstrap/bootstrap-reboot.scss";
+@import "custom-bootstrap/bootstrap.scss";
+
+// MDB FREE
+// @import "mdb-free";
+
+// PRO
+// @import "pro/variables";
+// @import "pro/buttons";
+
+// Your custom skin
+// @import "custom-skin";
+// @import "pro/skins";
+// @import "pro/depreciated";
+
+@import 'najiz/helpers/fonts';
+@import 'najiz/helpers/variables';
+// @import 'najiz/helpers/mixins';
+// @import 'najiz/helpers/fixBug';
+@import 'najiz/pages/globalpage';
+// @import 'najiz/layout/grid';
+// @import 'najiz/layout/landingPage';
+// @import 'najiz/layout/header';
+// @import 'najiz/layout/sideNav';
+@import 'najiz/layout/table';
+//@import 'moj/layout/gridsystems';
+// @import 'najiz/pages/login';
+// @import 'najiz/pages/homepage';
+// @import 'najiz/pages/innerpage';
+@import 'najiz/components/buttons';
+@import 'najiz/components/forms';
+@import 'najiz/components/modal';
+// @import 'najiz/components/cards';
+// @import 'najiz/components/stepper';
+// @import 'najiz/components/tabs';
+// @import 'najiz/components/setting';
+@import 'najiz/components/callouts';
+@import 'najiz/components/accordion';
+@import 'najiz/components/nav';
+// @import 'najiz/layout/footer';
+// @import 'najiz/layout/rtl';

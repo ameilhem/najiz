@@ -1,0 +1,60 @@
+$maxMobile: 767px;
+$minSmall: 768px;
+$minWidth: 992px;
+/*lang*/
+$dir: "rtl";
+$lang: "ar";
+
+/*interpolation*/
+$minMedium: "(min-width: 992px)";
+
+/*text colors*/
+$default_text_color: #02363d;
+$primary_text_color: #36c5ba;
+$second_text_color: #5c6f7c;
+$light_gray_text_color: #a6b8bb;
+$grayColor: #999 !important;
+
+/*Primary colors*/
+$teal: #158e8d;
+$gold: #e0cf97;
+$turquoise: #36c5ba;
+
+/*Secondary colors*/
+$pepper: #02363d;
+$grey: #dbdbdb;
+$powder_blue: #e4eaf5;
+$aqua: #bdece8;
+$sand: #faf9f4;
+$goldenrod_yellow: #f1efde;
+$light_cyan: #f7fbfb;
+
+/*Service colors*/
+$success_green: #00ad68;
+$information_blue: #416695;
+$alert_yellow: #f6b221;
+$error_red: #ae351c;
+
+
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+// $input-btn-padding-y:         .375rem !default;
+// $input-btn-padding-x:         .75rem !default;
+
+
+
+// $input-btn-padding-y-sm:      .25rem !default;
+// $input-btn-padding-x-sm:      .5rem !default;
+
+// $input-btn-padding-y-lg:      .5rem !default;
+// $input-btn-padding-x-lg:      1rem !default;
+
+
+//$custom-select-disabled-bg:         /*$gray-200*/$gray-100
+
+//$enable-responsive-font-sizes:                true !default;
+
+//$blue:   /*#007bff*/ #228e8c !default;

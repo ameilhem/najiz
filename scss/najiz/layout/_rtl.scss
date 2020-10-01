@@ -1,0 +1,217 @@
+[dir="#{$dir}"] {
+	.md-form label {
+		left: inherit;
+		right: 0
+	}
+	.form-check-input[type=checkbox].filled-in:checked+label:before,
+	label.btn input[type=checkbox].filled-in:checked+label:before {
+		right: 10px;
+		left: inherit;
+	}
+	.form-check-input[type=checkbox].filled-in+label:after,
+	.form-check-input[type=checkbox].filled-in+label:before,
+	label.btn input[type=checkbox].filled-in+label:after,
+	label.btn input[type=checkbox].filled-in+label:before {
+		right: 0;
+		left: inherit;
+	}
+	.form-check-input[type=checkbox]+label,
+	label.btn input[type=checkbox]+label {
+		padding-right: 35px;
+		padding-left: inherit
+	}
+	.form-check-input[type=checkbox]+label:before,
+	.form-check-input[type=checkbox]:not(.filled-in)+label:after,
+	label.btn input[type=checkbox]+label:before,
+	label.btn input[type=checkbox]:not(.filled-in)+label:after {
+		right: 0;
+		left: inherit;
+	}
+
+
+	.form-check-input[type=checkbox]:checked+label:before, 
+	label.btn input[type=checkbox]:checked+label:before {
+		right: 9px;
+		left: inherit;
+	}
+
+
+	.form-check-input[type=radio]:checked+label,
+	.form-check-input[type=radio]:not(:checked)+label,
+	label.btn input[type=radio]:checked+label,
+	label.btn input[type=radio]:not(:checked)+label {
+		padding-left: inherit;
+		padding-right: 35px;
+	}
+	.form-check-input[type=radio]+label:after,
+	.form-check-input[type=radio]+label:before,
+	label.btn input[type=radio]+label:after,
+	label.btn input[type=radio]+label:before {
+		right: 0;
+		left: inherit;
+	}
+	.file-field .file-path-wrapper {
+		padding-left: inherit;
+		padding-right: 10px;
+	}
+	.form-check-inline {
+		padding-right: 0;
+		padding-left: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.form-check {
+		padding-right: 0;
+		padding-left: .30rem;
+	}
+}
+
+[dir="#{$dir}"] {
+	ul.stepper>.step:not(:last-of-type):after {
+		right: .8438rem;
+		left: inherit;
+	}
+	ul.stepper .step-title {
+		padding: .9688rem 4rem 1.5rem 2.75rem;
+	}
+	ul.stepper .md-form label {
+		right: .8438rem;
+		left: inherit;
+	}
+	ul.stepper .step-new-content {
+		margin-left: 0;
+		margin-right: 41px;
+	}
+	.stepper-vertical li:not(:last-child):after {
+		right: 2.19rem;
+		left: inherit;
+	}
+	.stepper-vertical li .step-content {
+		margin-right: 3.13rem;
+		margin-left: inherit
+	}
+	ul.stepper li a .circle {
+		margin-left: .5rem;
+		margin-right: inherit;
+	}
+}
+
+
+[dir="#{$dir}"] {
+	@media only screen and (min-width: 993px) {
+		ul.stepper.horizontal .step .step-title:before {
+			right: 1.1875rem;
+			left: auto;
+		}
+		ul.stepper.horizontal .step-title {
+			line-height: 3.25rem;}
+	}
+}
+
+[dir="#{$dir}"] {
+.md-form.form-sm .prefix~input, .md-form.form-sm .prefix~textarea, .md-form .prefix~input, .md-form .prefix~textarea {margin-right: 2.5rem; margin-left: inherit}
+.md-form.md-outline .prefix~input, .md-form.md-outline .prefix~textarea {margin-right: 2rem; margin-left: inherit}
+.md-form.form-sm .prefix~.form-text, .md-form.form-sm .prefix~label, .md-form .prefix~label {margin-right: 2.5rem; margin-left: inherit}
+}
+
+/*note*/
+.bq-primary {
+	border-left: 3px solid #4285f4 !important; border-right: none !important }
+	.bq-primary	.bq-title {
+		color: #4285f4 !important;
+	}
+[dir="#{$dir}"] {
+
+	.blockquote {
+		border-right: .25rem solid #eceeef;
+		border-left: inherit;
+}
+
+.bq-primary {
+	border-right: 3px solid #4285f4 !important; border-left: none !important }
+	
+  .bq-danger {
+	border-right: 3px solid #ff3547 !important; border-left: none !important }
+
+  
+  .bq-warning {
+	border-right: 3px solid #ffbb33 !important; border-left: none !important}
+
+  
+  .bq-success {
+	border-right: 3px solid #00c851 !important; border-left: none !important}
+
+  
+  .bq-info {
+	border-right: 3px solid #33b5e5 !important; border-left: none !important}
+
+	.note {
+		border-right: 6px solid;
+		border-left-width: 0;
+	}
+
+
+	.note.note-primary {
+		border-color: #176ac4 !important; }
+	  .note.note-secondary {
+		border-color: #58595a !important; }
+	  .note.note-success {
+		border-color: #49a75f !important; }
+	  .note.note-danger {
+		border-color: #e45460 !important; }
+	  .note.note-warning {
+		border-color: #c2a442 !important; }
+	  .note.note-info {
+		border-color: #2492a5 !important; }
+	  .note.note-light {
+		border-color: #0f0f0f !important; }
+
+}
+
+/*.preloader-wrapper .spinner*/
+
+.preloader-wrapper{
+direction: ltr !important;
+}
+
+// @media (max-width: 1440px)  {		}
+		[dir="#{$dir}"]  {	
+				.waves-ripple  {
+					transform: scale(0);
+				}
+		}
+
+
+/*timeline*/
+[dir="#{$dir}"] {
+	.timeline-main {
+	direction: ltr;
+	}
+}
+
+[dir="#{$dir}"] {
+	dd {
+		margin-right: 0;
+	}
+	.list-inline, .navbar-nav {
+		padding-right: 0;
+		padding-left: inherit
+	}
+}
+
+
+/*clssic tab*/
+[dir="#{$dir}"] {
+.classic-tabs .nav {
+	overflow-x: hidden;
+	padding-right: 0;}
+
+	.nav-tabs .nav-item {
+		padding-right: 10px;
+	}
+
+	.md-form.md-outline label.active { right: .3rem; padding-left: .3rem; padding-right: .3rem;}
+	
+}
+
+

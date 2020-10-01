@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=3" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Najiz</title>
+      <meta name="robots" content="noindex,follow" />
+      <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png" />
+      <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png" />
+      <link rel="manifest" href="img/favicons/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png" />
+      <meta name="theme-color" content="#ffffff" />
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <!-- Crafton css -->
+      <link rel="stylesheet" href="css/crafton/admin.css" type="text/css" media="all" />
+      <!-- Custom-Bootstrap and Najiz-style CSS -->
+      <link rel="stylesheet" href="css/najiz.min.css" type="text/css" media="all" />
+      <!--Your style-->
+      <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
+      <!-- bootstrap-hijri-datepicker -->
+      <link href="css/addons/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+      <!-- footabel Bootstrap -->
+      <link rel="stylesheet" href="css/addons/footable.bootstrap.min.css" type="text/css" media="all" />
+
+   </head>
+   <body>
+      <header class="header">
+         <div class="header__container">
+            <div class="header__logo">
+               <a href="#" class="header__logoLink">
+               <img src="img/logo.svg" alt="najiz" class="header__logoImg" />
+               </a>
+            </div>
+            <div class="header__search">
+               <div class="input input--search">
+                  <input type="text" class="input__field input__field--noTop"
+                     placeholder="ابدأ بالكتابة للعثور على الخدمة الإلكترونية" />
+                  <div class="input__icon icon icon-search"></div>
+               </div>
+               <div class="header__searchActions">
+                  <div class="header__searchActionWrapper">
+                     <span class="header__searchAction icon icon-verifications"></span>
+                     <p class="header__searchActionText">Verification services</p>
+                  </div>
+                  <div class="header__searchActionWrapper">
+                     <span class="header__searchAction icon icon-tiles"></span>
+                     <p class="header__searchActionText">All E-Services</p>
+                  </div>
+               </div>
+            </div>
+            <div class="header__right">
+               <span class="accountWindow__accountIcon header__accountIcon icon icon-cogs"></span>
+               <div class="header__notifications">
+                  <span
+                     class="accountWindow__accountIcon accountWindow__accountIcon--notification header__accountIcon icon icon-notification"></span>
+                  <div class="notifications">
+                     <h5 class="notifications__title">Notifications</h5>
+                     <div class="notifications__listWrapper">
+                        <ul class="notifications__list" data-scrollbar>
+                           <li class="notifications__notification notifications__notification--active">
+                              <p class="notifications__notificationDate">
+                                 2020/03/20 11:37 AM
+                              </p>
+                              <div>
+                                 Your case was rejected for this reasons:
+                                 <ul>
+                                    <li>
+                                       <span class="status--color status--red">
+                                       Some documents are missing.
+                                       </span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li class="notifications__notification">
+                              <p class="notifications__notificationDate">
+                                 2020/03/20 11:37 AM
+                              </p>
+                              <div>
+                                 Your property has been sold for Abdullah Khalid Ahmad
+                              </div>
+                           </li>
+                           <li class="notifications__notification">
+                              <p class="notifications__notificationDate">
+                                 2020/03/20 11:37 AM
+                              </p>
+                              <div>
+                                 Case request has sent to the revision, you will be notify
+                                 soon
+                              </div>
+                           </li>
+                           <li class="notifications__notification notifications__notification--active">
+                              <p class="notifications__notificationDate">
+                                 2020/03/20 11:37 AM
+                              </p>
+                              <div>
+                                 Your case was rejected for this reasons:
+                                 <ul>
+                                    <li>
+                                       <span class="status--color status--red">
+                                       Some documents are missing.
+                                       </span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li class="notifications__notification">
+                              <p class="notifications__notificationDate">
+                                 2020/03/20 11:37 AM
+                              </p>
+                              <div>
+                                 Case request has sent to the revision, you will be notify
+                                 soon
+                              </div>
+                           </li>
+                           <li class="notifications__notification">
+                              <p class="notifications__notificationDate">
+                                 2020/03/20 11:37 AM
+                              </p>
+                              <div>
+                                 Your case was rejected for this reasons:
+                                 <ul>
+                                    <li>
+                                       <span class="status--color status--red">
+                                       Some documents are missing.
+                                       </span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="header__accountDetailsWrapper">
+                  <div class="header__accountDetails">
+                     <span class="accountWindow__accountName"> اسم المستخدم </span>
+                     <span class="header__accountMore icon icon-arrow_down"></span>
+                     <div class="accountWindow__avatarWrapper">
+                        <img class="accountWindow__avatar" alt="user profile image" src="img/avatar.png" />
+                     </div>
+                  </div>
+                  <div class="accountWindow">
+                     <div class="accountWindow__accountDetails">
+                        <div class="accountWindow__accountTypeWrapper">
+                           <p class="accountWindow__accountType">الحساب الشخصي</p>
+                           <p class="accountWindow__accountTypeMarker">الافتراضي</p>
+                        </div>
+                        <div class="accountWindow__accountNameWrapper">
+                           <p class="accountWindow__accountName">
+                              اسم لمستخدم
+                           </p>
+                           <div class="accountWindow__avatarWrapper">
+                              <img class="accountWindow__avatar" alt="Ahmad Othman" src="img/avatar.png" />
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accountWindow__searchWrapper">
+                        <p>حسابات الشركات</p>
+                        <div class="accountWindow__inputWrapper">
+                           <input class="accountWindow__input input" type="search" placeholder="Search for company" />
+                           <span class="accountWindow__inputIcon icon icon-search"></span>
+                        </div>
+                     </div>
+                     <div class="accountWindow__companiesWrapper" data-scrollbar>
+                        <ul class="accountWindow__companiesList">
+                           <li>اسم الشركة</li>
+                           <li>مثال لإسم شركة طويل</li>
+                           <li>اسم الشركة</li>
+                           <li>اسم الشركة</li>
+                           <li>اسم الشركة</li>
+                           <li>مثال لإسم شركة طويل</li>
+                           <li>اسم الشركة</li>
+                           <li>اسم الشركة</li>
+                        </ul>
+                     </div>
+                     <div class="accountWindow__addNewCompany">
+                        إضافة حساب شركة جديد
+                     </div>
+                     <div class="accountWindow__accountActions">
+                        <div>
+                           <span class="accountWindow__accountIcon icon icon-cogs"></span>
+                        </div>
+                        <div>
+                           <span
+                              class="accountWindow__accountIcon accountWindow__accountIcon--black icon icon-back"></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <span
+                  class="accountWindow__accountIcon accountWindow__accountIcon--black header__accountIcon icon icon-back"></span>
+               <div class="header__hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="sections">
+         <div class="dashboard">
+            <nav class="nav d-inline">
+               <span class="sidebarToggler sidebarToggler--left icon icon-arrow_left_bold"></span>
+       
+               <div class="nav__inner" data-scrollbar>
+                 <div class="nav__wrapper">
+                   <menu class="nav__groupList">
+                     <li class="nav__groupItem nav__groupItem--active">
+                       <a href="#" class="nav__itemText icon icon-dashboard">
+                         Dashboard
+                       </a>
+                     </li>
+                   </menu>
+                   <p class="nav__groupTitle">Cases</p>
+       
+                   <menu class="nav__groupList">
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_justice">
+                         Judicary
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_notary">
+                         s
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_real_estate">
+                         Real estates
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_statistics">
+                         Terminations
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_family">
+                         Family
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_licenses">
+                         Legal licenses
+                       </a>
+                     </li>
+                   </menu>
+                   <p class="nav__groupTitle">Account</p>
+       
+                   <menu class="nav__groupList">
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-account">
+                         Personal information
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-company_building">
+                         Companies management
+                       </a>
+                     </li>
+                   </menu>
+                   <p class="nav__groupTitle">Support</p>
+       
+                   <menu class="nav__groupList">
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-faq"> FAQ </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-chat">
+                         Technical support
+                       </a>
+                     </li>
+                   </menu>
+                 </div>
+               </div>
+       
+               <div class="nav__mobile">
+                 <div class="nav__search">
+                   <div class="nav__searchInput input input--noWrap input--search">
+                     <div class="input__icon icon icon-search"></div>
+                     <input type="text" class="input__field input__field--noFocus input__field--noTop"
+                       placeholder="ابدأ بالكتابة للعثور على الخدمة الإلكترونية" />
+       
+                     <div class="searchBox">
+                       <ul class="searchBox__searchBoxList">
+                         <li>
+                           <a href="#">
+                             <span class="searchBox__searchBoxCategory">
+                               Service
+                             </span>
+       
+                             <p>Issue new<strong> </strong></p>
+                           </a>
+                         </li>
+                         <li>
+                           <a href="#">
+                             <span class="searchBox__searchBoxCategory"> Tips </span>
+       
+                             <p>Duration of<strong> </strong></p>
+                           </a>
+                         </li>
+                         <li>
+                           <a href="#">
+                             <span class="searchBox__searchBoxCategory"> FAQ </span>
+       
+                             <p>How to issue a new<strong> </strong></p>
+                           </a>
+                         </li>
+                       </ul>
+       
+                       <a href="#" class="searchBox__searchResultsToggler">
+                         Show 17 more results
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+       
+                 <div class="nav__mobileWrapper">
+                   <menu class="nav__mobileInner">
+                     <li class="nav__groupItem nav__groupItem--arrow">
+                       <span class="nav__itemText icon icon-arrow_next"></span>
+                     </li>
+       
+                     <li class="nav__groupItem nav__groupItem--active">
+                       <a href="#" class="nav__itemText icon icon-dashboard">
+                         Dashboard
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_justice">
+                         Judicary
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_notary">
+                         s
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_real_estate">
+                         Real estates
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_statistics">
+                         Terminations
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_family">
+                         Family
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-category_licenses">
+                         Legal licenses
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-account">
+                         Personal information
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-company_building">
+                         Companies management
+                       </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-faq"> FAQ </a>
+                     </li>
+                     <li class="nav__groupItem">
+                       <a href="#" class="nav__itemText icon icon-chat">
+                         Technical support
+                       </a>
+                     </li>
+                     <li class="nav__groupItem nav__timelineToggle">
+                       <a href="#" class="nav__itemText icon icon-clock">
+                         Timeline
+                       </a>
+                     </li>
+                   </menu>
+                 </div>
+               </div>
+             </nav>
+         <section class="dashboard__inner custom_light_gray">
+            <div class="dashboardActionHeading p-0">
+               <div class="container-fluid">
+                  <div class="row justify-content-center">
+                     <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-11">
+                        <div class="row pt-3 pt-lg-4 pt-md-4 pb-4 pb-lg-4 pb-md-4">
+                           <div class="col-auto mr-auto col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                              <!--div: Modals-->
+                              <h3 class="dashboardActionHeading__title">
+                                Accordion
+                              </h3>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container-fluid">
+               <div class="row justify-content-center">
+                  <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-11">
+                    
+                           <div class="row">
+
+
+
+                              <div class="col-12 mt-5 mb-2">
+                                 <div class="accordion accordion_gr" id="accordionExample2">
+                     
+   
+   
+                                  <div class="card shadow rounded-0">
+                                    <div class="card-header border-0 d-flex justify-content-start py-3 sand" data-toggle="collapse" href="#collapse4">
+                                      <h4 class="mb-0" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                       <strong>     بيانات مقدم الطلب        
+                                          </strong>
+                                      </h4>
+                                    </div>
+                           
+                                    <div id="collapse4" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample2">
+                                      <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                      </div>
+                                    </div>
+                                  </div>
+   
+   
+                                </div>
+   
+   
+   
+   
+   
+                      
+   
+   
+                                </div>
+   
+                       <div class="col-12 my-2">
+                             <div class="accordion accordion_qa" id="accordionExample">
+
+                           
+
+
+                              <div class="card shadow rounded-0">
+
+                                <div class="card-header border-0 d-flex justify-content-between py-3 sand" data-toggle="collapse" href="#collapseOne">
+                                 <h4 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <strong>     العنوان الاول      
+                                     </strong>
+                                 </h4>
+                               </div>
+
+                       
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card shadow rounded-0">
+                              
+                                <div class="card-header border-0 d-flex d-flex justify-content-between py-3 sand" data-toggle="collapse" data-parent="#accordionExample" href="#collapseTwo">
+                                 <h4 class="mb-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  <strong>     العنوان الثاني      
+                                     </strong>
+                                 </h4>
+                               </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card shadow rounded-0">
+                                <div class="card-header border-0 d-flex d-flex justify-content-between py-3 sand" data-toggle="collapse" data-parent="#accordionExample" href="#collapseThree">
+                                 <h4 class="mb-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  <strong>    العنوان الثالث    
+                                     </strong>
+                                 </h4>
+                               </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                       
+                           </div>
+                     
+                  </div>
+               </div>
+         </section>
+         </div>
+      </main>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+         crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+         crossorigin="anonymous"></script>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script src="js/crafton/admin.js"></script>
+      <!-- bootstrap-hijri-datepicker -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+      <script src="js/addons/bootstrap-hijri-datetimepicker.min.js"></script>
+      <!-- footabel Bootstrap -->
+      <script src="js/addons/footable.min.js"></script>
+      <script>
+         //footable
+         jQuery(function ($) {
+            $(".table").footable();
+         });
+         //  hijri-datetimepicker
+         $(function () {
+            $(".hijri-date-input").hijriDatePicker();
+         });
+         
+      </script>
+   </body>
+</html>

@@ -1,0 +1,43 @@
+.accordion_gr .card-header:before {
+    font-family: 'FontAwesome';  
+    content: "\f077";
+    padding-right:17px;
+    padding-left: 0;
+    padding-top:4px;
+    color: #a6b8bb;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+[dir="#{$dir}"] {
+    .accordion_gr .card-header:before {
+        padding-left:17px;
+        padding-right: 0;
+    }
+}
+.accordion_gr .card-header.collapsed:before {
+    /* symbol for "collapsed" panels */
+    content: "\f078"; 
+}
+
+
+.accordion_qa .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f077";
+    padding-right:0;
+    padding-top:4px;
+    color: #a6b8bb;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+[dir="#{$dir}"] {
+    .accordion_qa .card-header:after {
+        padding-left:0;
+        padding-right: inherit;
+    }
+} 
+.accordion_qa .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f078"; 
+}

@@ -1,0 +1,14 @@
+.stepper-vertical li {flex: 1 0 auto;}
+.stepper-vertical li .step-content {width: 90%}
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+    /* IE10+ specific styles go here */  
+    .profile-card .avatar {
+        width: 100%;
+        text-align: center;
+    }
+    .profile-card .avatar img {
+        width: 100%;
+    }
+ }

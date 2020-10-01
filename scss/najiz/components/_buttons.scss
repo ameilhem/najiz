@@ -1,0 +1,108 @@
+/*new classes*/
+
+/* Define color */
+// .btn-default {border: 1px solid #e0cf97;
+//   background-color: #e0cf97;
+//   color: #fff;}
+// .btn-default:hover {background-color: #02363d; color: #fff;}
+// .btn-default:active,
+// .btn-default:visited,
+// .btn-default:focus {
+//  background-color: rgba(2,54,61,.8);
+// }
+
+/* btn-rounded*/
+
+.btn-rounded{
+  border-radius:10em;
+}
+
+
+.btn-default {
+  color: #fff;
+  background-color: #e0cf97;
+  border-color: #e0cf97
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #02363d;
+  border-color: #e0cf97
+}
+
+.btn-default:focus,
+.btn-default.focus {
+  background-color: rgba(2,54,61,.8);
+}
+
+.btn-default.disabled,
+.btn-default:disabled {
+  color: #fff;
+  background-color: #efe7cb;
+  border-color: #e7dbb1
+}
+
+.btn-default:not(:disabled):not(.disabled):active,
+.btn-default:not(:disabled):not(.disabled).active,
+.show>.btn-default.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(2,54,61,.8);
+  border-color: #e7dbb1
+}
+
+.btn-default:not(:disabled):not(.disabled):active:focus,
+.btn-default:not(:disabled):not(.disabled).active:focus,
+.show>.btn-default.dropdown-toggle:focus {
+  background-color: rgba(2,54,61,.8);
+}
+
+
+
+
+
+
+
+
+
+$mynewcolor:#DBDBDB;
+
+.btn-light {
+    @include button-variant($mynewcolor, darken($mynewcolor, 7.5%), darken($mynewcolor, 10%), lighten($mynewcolor,5%), lighten($mynewcolor, 10%), darken($mynewcolor,30%));
+}
+
+.btn-outline-light {
+    @include button-outline-variant($mynewcolor, #000, lighten($mynewcolor, 10%), $mynewcolor);
+}
+
+.btn-light,
+.btn-outline-light { color:#02363d }
+
+
+
+
+.form-control:focus, .btn:focus, .btn-outline-light:focus, a, a:focus .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus, .was-validated .form-control:valid:focus, .form-control.is-valid:focus {outline: 0 !important; box-shadow: none !important;} 
+
+a, a:focus, a:hover {
+  text-decoration: none;
+}
+
+
+/*btn-file*/
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  z-index: 1;
+  outline: none;   
+  cursor: pointer;
+  display: block;
+}
