@@ -11731,9 +11731,30 @@ a.text-dark:hover, a.text-dark:focus {
 /*Primary colors*/
 /*Secondary colors*/
 /*Service colors*/
+.stepper-vertical li {
+  flex: 1 0 auto; }
+
+.stepper-vertical li .step-content {
+  width: 90%; }
+
+address, dl, ol, p, pre, ul {
+  margin-bottom: 0; }
+
+button:focus {
+  outline: none !important; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* IE10+ specific styles go here */
+  .profile-card .avatar {
+    width: 100%;
+    text-align: center; }
+  .profile-card .avatar img {
+    width: 100%; } }
+
 html,
 body {
   direction: ltr;
+  font-size: 16px;
   font-size: 1rem;
   font-family: "Almarai", sans-serif;
   text-align: left;
@@ -11849,12 +11870,14 @@ textarea {
   top: 0;
   width: calc(100% - 0px); }
 
+/*
 .dashboardActionHeading {
-  display: block; }
-
+  display: block;
+}
+/*
 .issueProcuration__buttonWrapper {
-  display: grid; }
-
+  display: grid;
+}
 /*.dashboard__inner {
   display: grid;
 }*/
@@ -11897,22 +11920,27 @@ textarea {
     left: 25px !important;
     right: inherit !important; } }
 
-/*cancel button*/
+/*cancel button
 .dashboardActionHeading__backButton {
   position: absolute;
-  left: -70px; }
+    left: -70px;
+}
 
-[dir="rtl"] .dashboardActionHeading__backButton {
-  position: absolute;
-  right: -70px;
-  left: inherit; }
-
-@media (max-width: 768px) {
+[dir="rtl"]{
+  .dashboardActionHeading__backButton {
+    position: absolute;
+      right: -70px;
+      left:inherit
+  }
+}
+@media(max-width:$minSmall) {
   .dashboardActionHeading__backButton {
     position: inherit !important;
-    right: inherit !important;
-    left: inherit !important; } }
-
+      right: inherit !important;
+      left:inherit !important
+  }
+}
+*/
 /*coustom card*/
 .shadow {
   border: 1px solid #dbdbdb;
@@ -11964,6 +11992,12 @@ html[dir="rtl"] .issueProcuration__displayMore {
 
 .issueProcuration__displayMore {
   width: calc(100% + 4px); }
+
+.dashboard > .nav {
+  display: block !important; }
+
+a.nav__itemText {
+  color: #02363d; }
 
 /*new classes*/
 th {

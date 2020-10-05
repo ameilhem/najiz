@@ -1,6 +1,7 @@
 html,
 body {
   direction: ltr;
+  font-size:16px;
   // height: 100%;
   // background: #f9f9f9 url(../img/svg-pattern.svg) repeat center top;
   // background: #f9f9f9 url(../img/body_BG_5.jpg) repeat center top;
@@ -176,10 +177,11 @@ textarea {
   top: 0;
   width: calc(100% - 0px);
 }
-
+/*
 .dashboardActionHeading {
   display: block;
 }
+/*
 .issueProcuration__buttonWrapper {
   display: grid;
 }
@@ -235,7 +237,7 @@ textarea {
   }
 }
 
-/*cancel button*/
+/*cancel button
 .dashboardActionHeading__backButton {
   position: absolute;
     left: -70px;
@@ -255,7 +257,7 @@ textarea {
       left:inherit !important
   }
 }
-
+*/
 
 /*coustom card*/
 .shadow{

@@ -1,6 +1,11 @@
 .stepper-vertical li {flex: 1 0 auto;}
 .stepper-vertical li .step-content {width: 90%}
-
+address, dl, ol, p, pre, ul {
+    margin-bottom: 0;
+}
+button:focus {
+    outline: none !important;
+}
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
     /* IE10+ specific styles go here */  

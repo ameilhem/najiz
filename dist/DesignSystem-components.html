@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=3" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Najiz</title>
+      <meta name="robots" content="noindex,follow" />
+      <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png" />
+      <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png" />
+      <link rel="manifest" href="img/favicons/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png" />
+      <meta name="theme-color" content="#ffffff" />
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <!-- Crafton css -->
+      <link rel="stylesheet" href="css/crafton/admin.css" type="text/css" media="all" />
+      <!-- Custom-Bootstrap and Najiz-style CSS -->
+      <link rel="stylesheet" href="css/najiz.min.css" type="text/css" media="all" />
+      <!--Your style-->
+      <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
+      <!-- bootstrap-hijri-datepicker -->
+      <link href="css/addons/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+      <!-- footabel Bootstrap -->
+      <link rel="stylesheet" href="css/addons/footable.bootstrap.min.css" type="text/css" media="all" />
+   </head>
+   <body>
+      
+<header class="header">
+   <div class="header__container">
+     <div class="header__logo">
+       <a href="#" class="header__logoLink">
+         <img src="./../img/logo.svg" alt="najiz" class="header__logoImg" />
+       </a>
+     </div>
+ 
+           <div class="header__search">
+         <div class="input input--search">
+           
+ <div class="input__icon icon icon-search"></div>
+ <input 
+   type="text"
+   class="input__field input__field--noFocus input__field--noTop"
+   placeholder="ابدأ بالكتابة للعثور على الخدمة الإلكترونية"
+ >
+ 
+ <div class="searchBox">
+   <ul class="searchBox__searchBoxList">
+           <li>
+         <a href="#">
+           <span class="searchBox__searchBoxCategory">
+             Service          </span>
+ 
+           <p>
+             Issue new<strong>  </strong>          </p>
+         </a>
+       </li>
+           <li>
+         <a href="#">
+           <span class="searchBox__searchBoxCategory">
+             Tips          </span>
+ 
+           <p>
+             Duration of<strong>  </strong>          </p>
+         </a>
+       </li>
+           <li>
+         <a href="#">
+           <span class="searchBox__searchBoxCategory">
+             FAQ          </span>
+ 
+           <p>
+             How to issue a new<strong>  </strong>          </p>
+         </a>
+       </li>
+       </ul>
+ 
+   <a href="#" class="searchBox__searchResultsToggler">
+     Show 17 more results  </a>
+ </div>        </div>
+ 
+         <div class="header__searchActions">
+                       <a href="#" class="header__searchActionWrapper">
+               <span class="header__searchAction icon icon-verifications"></span>
+ 
+               <p class="header__searchActionText"> Verifiaction services </p>
+             </a>
+                       <a href="#" class="header__searchActionWrapper">
+               <span class="header__searchAction icon icon-tiles"></span>
+ 
+               <p class="header__searchActionText"> All E-Services </p>
+             </a>
+                   </div>
+       </div>
+     
+     <div class="header__right">
+       
+       
+               <span class="accountWindow__accountIcon header__accountIcon icon icon-cogs"></span>
+ 
+         <div class="header__notifications">
+           <span class="accountWindow__accountIcon accountWindow__accountIcon--notification header__accountIcon icon icon-notification"></span>
+ 
+           
+ <div class="notifications">
+   <h5 class="notifications__title"> Notifications </h5>
+ 
+   <div class="notifications__listWrapper">
+     <ul class="notifications__list" data-scrollbar>
+               <li class="notifications__notification notifications__notification--active">
+           <p class="notifications__notificationDate"> 2020/03/20 11:37 AM </p>
+           
+           <div> Your case was rejected for this reasons: <ul> <li> <span class="status--color status--red"> Some documents are missing. </span> </li> </ul> </div>
+         </li>
+               <li class="notifications__notification">
+           <p class="notifications__notificationDate"> 2020/03/20 11:37 AM </p>
+           
+           <div> Your property has been sold for Abdullah Khalid Ahmad </div>
+         </li>
+               <li class="notifications__notification">
+           <p class="notifications__notificationDate"> 2020/03/20 11:37 AM </p>
+           
+           <div> Case request has sent to the revision, you will be notify soon </div>
+         </li>
+               <li class="notifications__notification notifications__notification--active">
+           <p class="notifications__notificationDate"> 2020/03/20 11:37 AM </p>
+           
+           <div> Your case was rejected for this reasons: <ul> <li> <span class="status--color status--red"> Some documents are missing. </span> </li> </ul> </div>
+         </li>
+               <li class="notifications__notification">
+           <p class="notifications__notificationDate"> 2020/03/20 11:37 AM </p>
+           
+           <div> Case request has sent to the revision, you will be notify soon </div>
+         </li>
+               <li class="notifications__notification">
+           <p class="notifications__notificationDate"> 2020/03/20 11:37 AM </p>
+           
+           <div> Your case was rejected for this reasons: <ul> <li> <span class="status--color status--red"> Some documents are missing. </span> </li> </ul> </div>
+         </li>
+           </ul>
+   </div>
+ </div>        </div>
+ 
+         <div class="header__accountDetailsWrapper">
+           <div class="header__accountDetails">
+             <span class="accountWindow__accountName">
+               Ahmad Othman            </span>
+ 
+             <span class="header__accountMore icon icon-arrow_down"></span>
+ 
+             <div class="accountWindow__avatarWrapper">
+               <img class="accountWindow__avatar" alt="Ahmad Othman" src="./../img/avatar.png"/>
+             </div>
+           </div>
+ 
+           <div class="accountWindow">
+   <div class="accountWindow__accountDetails">
+     <div class="accountWindow__accountTypeWrapper">
+       <p class="accountWindow__accountType"> Personal account </p>
+ 
+       <p class="accountWindow__accountTypeMarker"> Default </p>
+     </div>
+ 
+     <div class="accountWindow__accountNameWrapper">
+       <p class="accountWindow__accountName">
+         Ahmad Othman      </p>
+ 
+       <div class="accountWindow__avatarWrapper">
+         <img class="accountWindow__avatar" alt="Ahmad Othman" src="./../img/avatar.png"/>
+       </div>
+     </div>
+   </div>
+ 
+   <div class="accountWindow__searchWrapper">
+     <p> Company accounts</p>
+ 
+     <div class="accountWindow__inputWrapper">
+       <input class="accountWindow__input input" type="search" placeholder="Search for company"/>
+ 
+       <span class="accountWindow__inputIcon icon icon-search"></span>
+     </div>
+   </div>
+ 
+   <div class="accountWindow__companiesWrapper" data-scrollbar>
+     <ul class="accountWindow__companiesList">
+               <li> Company name </li>
+               <li> Long company name </li>
+               <li> Company name </li>
+               <li> Long company name </li>
+               <li> Company 2 </li>
+               <li> Company name 2 </li>
+               <li> Long company name 2 </li>
+               <li> Company name 2 </li>
+               <li> Long company name 2 </li>
+               <li> Company 2 </li>
+           </ul>
+   </div>
+ 
+   <a href="#" class="accountWindow__addNewCompany">
+     Add new company  </a>
+ 
+   <div class="accountWindow__accountActions">
+     <div>
+       <span class="accountWindow__accountIcon icon icon-cogs"></span>
+     </div>
+ 
+     <div>
+       <span class="accountWindow__accountIcon accountWindow__accountIcon--black icon icon-back"></span>
+     </div>
+   </div>
+ </div>        </div>
+ 
+         <span class="accountWindow__accountIcon accountWindow__accountIcon--black header__accountIcon icon icon-back"></span>
+ 
+         <div class="header__hamburger">
+           <span></span>
+           <span></span>
+           <span></span>
+         </div>
+           </div>
+   </div>
+ </header>  <main class="sections">
+     <div class="dashboard">
+       
+ <nav class="nav">
+   <span class="sidebarToggler sidebarToggler--left icon icon-arrow_left_bold"></span>
+ 
+   <div class="nav__inner" data-scrollbar>
+     <div class="nav__wrapper">
+               
+                   <menu class="nav__groupList">
+                           <li class="nav__groupItem nav__groupItem--active"> 
+                 <a href="#" class="nav__itemText icon icon-dashboard"> Dashboard </a> 
+               </li>
+                       </menu>
+                                 <p class="nav__groupTitle"> Cases </p>
+         
+                   <menu class="nav__groupList">
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-category_justice"> Judicary </a> 
+               </li>
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-category_notary"> s </a> 
+               </li>
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-category_real_estate"> Real estates </a> 
+               </li>
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-category_statistics"> Terminations </a> 
+               </li>
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-category_family"> Family </a> 
+               </li>
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-category_licenses"> Legal licenses </a> 
+               </li>
+                       </menu>
+                                 <p class="nav__groupTitle"> Account </p>
+         
+                   <menu class="nav__groupList">
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-account"> Personal information </a> 
+               </li>
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-company_building"> Companies management </a> 
+               </li>
+                       </menu>
+                                 <p class="nav__groupTitle"> Support </p>
+         
+                   <menu class="nav__groupList">
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-faq"> FAQ </a> 
+               </li>
+                           <li class="nav__groupItem"> 
+                 <a href="#" class="nav__itemText icon icon-chat"> Technical support </a> 
+               </li>
+                       </menu>
+                       
+                   </div>
+   </div>
+ 
+   <div class="nav__mobile">
+     <div class="nav__search">
+       <div class="nav__searchInput input input--noWrap input--search">
+         
+ <div class="input__icon icon icon-search"></div>
+ <input 
+   type="text"
+   class="input__field input__field--noFocus input__field--noTop"
+   placeholder="ابدأ بالكتابة للعثور على الخدمة الإلكترونية"
+ >
+ 
+ <div class="searchBox">
+   <ul class="searchBox__searchBoxList">
+           <li>
+         <a href="#">
+           <span class="searchBox__searchBoxCategory">
+             Service          </span>
+ 
+           <p>
+             Issue new<strong>  </strong>          </p>
+         </a>
+       </li>
+           <li>
+         <a href="#">
+           <span class="searchBox__searchBoxCategory">
+             Tips          </span>
+ 
+           <p>
+             Duration of<strong>  </strong>          </p>
+         </a>
+       </li>
+           <li>
+         <a href="#">
+           <span class="searchBox__searchBoxCategory">
+             FAQ          </span>
+ 
+           <p>
+             How to issue a new<strong>  </strong>          </p>
+         </a>
+       </li>
+       </ul>
+ 
+   <a href="#" class="searchBox__searchResultsToggler">
+     Show 17 more results  </a>
+ </div>      </div>
+     </div>
+ 
+     <div class="nav__mobileWrapper">
+       <menu class="nav__mobileInner">
+         <li class="nav__groupItem nav__groupItem--arrow">
+           <span class="nav__itemText icon icon-arrow_next"></span>
+         </li>
+ 
+                               <li class="nav__groupItem nav__groupItem--active "> 
+               <a href="#" class="nav__itemText icon icon-dashboard"> Dashboard </a> 
+             </li>
+                                         <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-category_justice"> Judicary </a> 
+             </li>
+                       <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-category_notary"> s </a> 
+             </li>
+                       <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-category_real_estate"> Real estates </a> 
+             </li>
+                       <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-category_statistics"> Terminations </a> 
+             </li>
+                       <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-category_family"> Family </a> 
+             </li>
+                       <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-category_licenses"> Legal licenses </a> 
+             </li>
+                                         <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-account"> Personal information </a> 
+             </li>
+                       <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-company_building"> Companies management </a> 
+             </li>
+                                         <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-faq"> FAQ </a> 
+             </li>
+                       <li class="nav__groupItem "> 
+               <a href="#" class="nav__itemText icon icon-chat"> Technical support </a> 
+             </li>
+                                         <li class="nav__groupItem nav__timelineToggle"> 
+               <a href="#" class="nav__itemText icon icon-clock"> Timeline </a> 
+             </li>
+                         </menu>
+     </div>
+   </div>
+ </nav>
+ <div class="dashboard__inner">
+   <div class="dashboardActionHeading"
+ >
+       <div class="dashboardActionHeading__backButton">
+       <span class="icon icon-arrow_back">
+         Cancel      </span>
+     </div>
+   
+   <div class="dashboardActionHeading__contentWrapper">
+           <div class="dashboardActionHeading__titleWrapper">
+         <div class="dashboardActionHeading__titleInner">
+           <h3 class="dashboardActionHeading__title">
+             Issue new           </h3>
+         </div>
+ 
+         <div class="dashboardActionHeading__titleButtons">
+           
+                       <button class="dashboardActionHeading__saveDraft">
+               <span class="icon icon-draft">
+                 Save as draft              </span>
+             </button>
+                   </div>
+       </div>
+     
+     
+     
+           <ul class="dashboardActionHeading__steps">
+                   <li class="dashboardActionHeading__singleStep dashboardActionHeading__singleStep--counterActive">
+             <span>  information </span>
+           </li>
+                   <li class="dashboardActionHeading__singleStep">
+             <span> Choose procurement </span>
+           </li>
+                   <li class="dashboardActionHeading__singleStep">
+             <span> Confirmation </span>
+           </li>
+               </ul>
+     
+       </div>
+ </div>
+   <div class="issue">
+     <div class="issue__warning">
+   <div class="issue__warningCircle">!</div>
+ 
+   <div class="issue__warningContent">
+     <h5 class="issue__warningTitle"> 
+       You must visit the nearest notary office to verify your details. 
+     </h5>
+ 
+     <p class="issue__warningData">
+       3 issues    </p>
+ 
+     <input class="issue__toggleInput" type="checkbox" name="warning" id="toggle-warning"/>
+     <label class="issue__toggleLabel" for="toggle-warning"> 
+       <span>Show more</span>
+       <span>Show less</span>
+     </label>
+ 
+     <div class="issue__displayMore">
+       <ol class="issue__warningData">
+         <li> It is the first time you issue a . </li>
+         <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+         <li> Nunc quis risus mi. Ut placerat quam lectus. </li>
+       </ol>
+     </div>
+   </div>
+ </div>
+                   <div class="issueTile">
+   <div class="issueTile__wrapper">
+     <div class="issueTile__hide">
+       <span class="icon icon-arrow_up"></span>
+     </div>
+ 
+     <div class="issueTile__content">
+       <div class="issueTile__headingWrapper">
+         <h5 class="issueTile__heading">
+           <strong> Client </strong>
+ 
+                   </h5>
+ 
+         
+                   <div class="select issueTile__select select--long">
+       <span class="select__selectTitle"> Party type </span>
+   
+   <select class="js-example-basic-single select__element" name="select" data-no-icon="1">
+           <option value="individual">Individual</option>
+           <option value="individual">Individual</option>
+       </select>
+ </div>              </div>
+ 
+       
+               <div class="personData">
+       <div class="personData__column">
+       <h4 class="personData__name">
+         Talib Mahmood      </h4>
+     </div>
+   
+       <div class="personData__column">
+       <div class="personData__columnInner">
+         <span class="personData__label">
+           ID        </span>
+ 
+         <span class="personData__text">
+           165465428        </span>
+ 
+               </div>
+     </div>
+       <div class="personData__column">
+       <div class="personData__columnInner">
+         <span class="personData__label">
+           Date of birth        </span>
+ 
+         <span class="personData__text">
+           11/02/1964        </span>
+ 
+               </div>
+     </div>
+       <div class="personData__column">
+       <div class="personData__columnInner">
+         <span class="personData__label">
+           Phone        </span>
+ 
+         <span class="personData__text">
+           +966 125 451 233        </span>
+ 
+                   <span class="personData__penEdit icon icon-pen"></span>
+               </div>
+     </div>
+   </div>      
+       
+       
+       
+       
+       
+           </div>
+   </div>
+ 
+   </div>                        <div class="issueTile">
+   <div class="issueTile__wrapper">
+     <div class="issueTile__hide">
+       <span class="icon icon-arrow_up"></span>
+     </div>
+ 
+     <div class="issueTile__content">
+       <div class="issueTile__headingWrapper">
+         <h5 class="issueTile__heading">
+           <strong> Client </strong>
+ 
+                   </h5>
+ 
+         
+                   <div class="select issueTile__select select--long">
+       <span class="select__selectTitle"> Party type </span>
+   
+   <select class="js-example-basic-single select__element" name="select" data-no-icon="1">
+           <option value="individual">Individual</option>
+           <option value="individual">Individual</option>
+       </select>
+ </div>              </div>
+ 
+       
+       
+               <div class="Form">
+       
+           <div class="Form__fieldsWrapper">
+                   <div class="Form__field Form__field--full">
+ 
+                           <p class="Form__fieldLabel"> ID Type</p>
+             
+             <div class="Form__fieldWrapper Form__fieldWrapper--margin ">
+                                                 <input class="Form__tileCheck" type="radio" name="client" id="select-National ID-client" checked/>
+                   <label class="Form__tileLabel" for="select-National ID-client"> National ID </label>
+                                   <input class="Form__tileCheck" type="radio" name="client" id="select-Iqama-client" />
+                   <label class="Form__tileLabel" for="select-Iqama-client"> Iqama </label>
+                                           </div>
+           </div>
+                   <div class="Form__field">
+ 
+                           <p class="Form__fieldLabel"> ID Number</p>
+             
+             <div class="Form__fieldWrapper  ">
+                               <input type="text" class="input__field input__field--big input__field--noTop" placeholder="Type ID number">
+                           </div>
+           </div>
+                   <div class="Form__field">
+ 
+                           <p class="Form__fieldLabel"> Date of birth</p>
+             
+             <div class="Form__fieldWrapper  icon icon-calendar">
+                               <input type="text" class="input__field input__field--big input__field--noTop" placeholder="Choose date of birth" data-calendar />
+                           </div>
+           </div>
+                   <div class="Form__field">
+ 
+                           <p class="Form__fieldLabel"> Phone number</p>
+             
+             <div class="Form__fieldWrapper  ">
+                               <input type="text" class="input__field input__field--big input__field--noTop" placeholder="Type phone number">
+                           </div>
+           </div>
+               </div>
+       </div>      
+       
+       
+       
+       
+           </div>
+   </div>
+ 
+       <span class="issueTile__deleteTile icon icon-bin"></span>
+   </div>                                  <div class="issue__buttonWrapper">
+             
+ <button  class="button button--small button--border">
+   <span class="button__buttonText button__buttonText--medium"> Add next client </span>
+ </button>          </div>
+                                           <div class="issue__confirmCheckbox">
+               
+   <input class="checkbox__input" type="checkbox" id="checkbox-3" name="checkbox-3"/>
+   <label class="checkbox checkbox--big checkbox--tickInside checkbox--reverse" for="checkbox-3">
+           <span> All parties must be present </span>
+     
+   
+   </label>          </div>
+                                           <div class="issue__tilesDivider">
+             <div class="issue__tilesDividerImage">
+               <img src="./../img/chain.svg" alt="tilesDivider">
+             </div>
+           </div>
+                                 <div class="issueTile">
+   <div class="issueTile__wrapper">
+     <div class="issueTile__hide">
+       <span class="icon icon-arrow_up"></span>
+     </div>
+ 
+     <div class="issueTile__content">
+       <div class="issueTile__headingWrapper">
+         <h5 class="issueTile__heading">
+           <strong> Procurator </strong>
+ 
+                   </h5>
+ 
+         
+                   <div class="select issueTile__select select--long">
+       <span class="select__selectTitle"> Party type </span>
+   
+   <select class="js-example-basic-single select__element" name="select" data-no-icon="1">
+           <option value="individual">Individual</option>
+           <option value="organization_owner">Organization owner</option>
+           <option value="office_owner">Office owner</option>
+           <option value="organization_representative">Organization representative</option>
+           <option value="organization_liquidator">Organization liquidator</option>
+           <option value="guardian">Guardian</option>
+       </select>
+ </div>              </div>
+ 
+       
+       
+               <div class="Form">
+       
+           <div class="Form__fieldsWrapper">
+                   <div class="Form__field Form__field--full">
+ 
+                           <p class="Form__fieldLabel"> ID Type</p>
+             
+             <div class="Form__fieldWrapper Form__fieldWrapper--margin ">
+                                                 <input class="Form__tileCheck" type="radio" name="procurator" id="select-National ID-procurator" checked/>
+                   <label class="Form__tileLabel" for="select-National ID-procurator"> National ID </label>
+                                   <input class="Form__tileCheck" type="radio" name="procurator" id="select-Iqama-procurator" />
+                   <label class="Form__tileLabel" for="select-Iqama-procurator"> Iqama </label>
+                                           </div>
+           </div>
+                   <div class="Form__field">
+ 
+                           <p class="Form__fieldLabel"> ID Number</p>
+             
+             <div class="Form__fieldWrapper  ">
+                               <input type="text" class="input__field input__field--big input__field--noTop" placeholder="Type ID number">
+                           </div>
+           </div>
+                   <div class="Form__field">
+ 
+                           <p class="Form__fieldLabel"> Date of birth</p>
+             
+             <div class="Form__fieldWrapper  icon icon-calendar">
+                               <input type="text" class="input__field input__field--big input__field--noTop" placeholder="Choose date of birth" data-calendar />
+                           </div>
+           </div>
+                   <div class="Form__field">
+ 
+             
+             <div class="Form__fieldWrapper  ">
+                               
+ <button  class="button button--radius button--greenFill Form__button">
+   <span class="button__buttonText button__buttonText--medium"> Verify </span>
+ </button>                          </div>
+           </div>
+               </div>
+       </div>      
+       
+       
+       
+       
+           </div>
+   </div>
+ 
+   </div>                                  <div class="issue__buttonWrapper">
+             
+ <button  class="button button--small button--border">
+   <span class="button__buttonText button__buttonText--medium"> Add next procurator </span>
+ </button>          </div>
+                                           <div class="issue__tilesDivider">
+             <div class="issue__tilesDividerImage">
+               <img src="./../img/clock.svg" alt="tilesDivider">
+             </div>
+           </div>
+                                 <div class="issueTile">
+   <div class="issueTile__wrapper">
+     <div class="issueTile__hide">
+       <span class="icon icon-arrow_up"></span>
+     </div>
+ 
+     <div class="issueTile__content">
+       <div class="issueTile__headingWrapper">
+         <h5 class="issueTile__heading">
+           <strong> Duration </strong>
+ 
+                   </h5>
+ 
+         
+               </div>
+ 
+       
+       
+       
+               
+ <div class="duration">
+   <p> Please specify the duration of the . </p>
+ 
+   <div class="duration__togglerWrapper">
+     <input type="checkbox" name="durationToggler" id="durationToggler"/>
+     <label for="durationToggler" class="duration__toggler">
+       <span class="duration__switch"></span>
+     </label>
+ 
+     <span> Gregorian </span>
+     <span> Hijri </span>
+   </div>
+ 
+       <div class="duration__tiles">
+               <div class="duration__tile">
+           <input type="radio" name="duration" id="1_month" />
+           <label for="1_month" class="duration__tileInner">
+             <span class="duration__duration"> <strong> 1 </strong> month </span>
+ 
+             <span class="duration__date"> Exp date: <span>18/04/2020</span> </span>
+           </label>
+         </div>
+               <div class="duration__tile">
+           <input type="radio" name="duration" id="3_months" checked/>
+           <label for="3_months" class="duration__tileInner">
+             <span class="duration__duration"> <strong> 3 </strong> months </span>
+ 
+             <span class="duration__date"> Exp date: <span>18/06/2020</span> </span>
+           </label>
+         </div>
+               <div class="duration__tile">
+           <input type="radio" name="duration" id="6_months" />
+           <label for="6_months" class="duration__tileInner">
+             <span class="duration__duration"> <strong> 6 </strong> months </span>
+ 
+             <span class="duration__date"> Exp date: <span>18/09/2020</span> </span>
+           </label>
+         </div>
+               <div class="duration__tile">
+           <input type="radio" name="duration" id="9_months" />
+           <label for="9_months" class="duration__tileInner">
+             <span class="duration__duration"> <strong> 9 </strong> months </span>
+ 
+             <span class="duration__date"> Exp date: <span>18/12/2020</span> </span>
+           </label>
+         </div>
+               <div class="duration__tile">
+           <input type="radio" name="duration" id="1_year" />
+           <label for="1_year" class="duration__tileInner">
+             <span class="duration__duration"> <strong> 1 </strong> year </span>
+ 
+             <span class="duration__date"> Exp date: <span>18/03/2021</span> </span>
+           </label>
+         </div>
+               <div class="duration__tile">
+           <input type="radio" name="duration" id="2_years" />
+           <label for="2_years" class="duration__tileInner">
+             <span class="duration__duration"> <strong> 3 </strong> years </span>
+ 
+             <span class="duration__date"> Exp date: <span>18/03/2023</span> </span>
+           </label>
+         </div>
+               <div class="duration__tile">
+           <input type="radio" name="duration" id="3_years" />
+           <label for="3_years" class="duration__tileInner">
+             <span class="duration__duration"> <strong> 5 </strong> years </span>
+ 
+             <span class="duration__date"> Exp date: <span>18/03/2025</span> </span>
+           </label>
+         </div>
+           </div>
+   
+   <p> or define period manually </p>
+ 
+   <div class="Form">
+       
+           <div class="Form__fieldsWrapper">
+                   <div class="Form__field">
+ 
+                           <p class="Form__fieldLabel"> Issuing date</p>
+             
+             <div class="Form__fieldWrapper  icon icon-calendar">
+                               <input type="text" class="input__field input__field--big input__field--noTop" placeholder="Choose issuing date" data-calendar />
+                           </div>
+           </div>
+                   <div class="Form__field">
+ 
+                           <p class="Form__fieldLabel"> Expiry date</p>
+             
+             <div class="Form__fieldWrapper  icon icon-calendar">
+                               <input type="text" class="input__field input__field--big input__field--noTop" placeholder="Choose expiry date" data-calendar />
+                           </div>
+           </div>
+               </div>
+       </div></div>      
+       
+       
+       
+           </div>
+   </div>
+ 
+   </div>          
+     <div class="issue__buttons">
+       <div class="issue__buttonsInner">
+         
+ <button  class="button">
+   <span class="button__buttonText"> Cancel </span>
+ </button>
+         
+ <button  class="button button--radius button--greenFill issue__buttonProceed">
+   <span class="button__buttonText"> Proceed </span>
+ </button>      </div>
+     </div>
+   </div>
+ </div>
+ 
+   </div>
+   </main>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+         crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+         crossorigin="anonymous"></script>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script src="js/crafton/admin.js"></script>
+      <!-- bootstrap-hijri-datepicker -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+      <script src="js/addons/bootstrap-hijri-datetimepicker.min.js"></script>
+      <!-- footabel Bootstrap -->
+      <script src="js/addons/footable.min.js"></script>
+      <script>
+         //footable
+         jQuery(function ($) {
+            $(".table").footable();
+         });
+         //  hijri-datetimepicker
+         $(function () {
+            $(".hijri-date-input").hijriDatePicker();
+         });
+         
+      </script>
+   </body>
+</html>
