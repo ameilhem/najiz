@@ -11743,6 +11743,31 @@ address, dl, ol, p, pre, ul {
 button:focus {
   outline: none !important; }
 
+/*select2 theme*/
+.select2-selection {
+  height: 50px !important;
+  border-color: #dee2e6 !important; }
+
+span.select2-selection__rendered {
+  padding: 0 1rem !important;
+  line-height: 50px !important; }
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 48px;
+  width: 50px; }
+
+.select2-container--default .select2-results__option[aria-selected='true'], .select2-results__option {
+  background-color: #f1f4f9 !important;
+  font-size: 1rem !important;
+  padding: 1rem; }
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #228e8c !important;
+  color: #fff !important; }
+
+.select .select2-selection:after {
+  top: 10%; }
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   /* IE10+ specific styles go here */
   .profile-card .avatar {
